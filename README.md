@@ -3,7 +3,7 @@
 A modern billing system demo built to showcase clean UI, intuitive invoice workflows,
 and real-time billing interactions.
 
-![Demo Billing Preview](assets/images/demo-billing.png)
+![Demo Billing Preview]<img width="1313" height="630" alt="Screenshot 2026-01-05 110316" src="https://github.com/user-attachments/assets/225f1aa4-8f28-40c0-95cb-e2b76c992670" />
 
 ---
 
@@ -75,5 +75,5 @@ Frontend Developer | UI-focused SaaS Builder
 
 GitHub: https://github.com/Chemene-coder
 
-<img width="1313" height="630" alt="Screenshot 2026-01-05 110316" src="https://github.com/user-attachments/assets/225f1aa4-8f28-40c0-95cb-e2b76c992670" />
+
 
