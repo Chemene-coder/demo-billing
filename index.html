@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Invoice / Billing Demo</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>Invoice / Billing System Demo</h1>
+
+    <!-- Invoice Form -->
+    <div class="invoice-form">
+      <h2>Add / Edit Invoice</h2>
+      <input type="hidden" id="invoiceId">
+      <input type="text" id="clientName" placeholder="Client Name">
+      <input type="date" id="invoiceDate">
+      <input type="text" id="items" placeholder="Items (comma-separated)">
+      <input type="number" id="amount" placeholder="Total Amount">
+      <select id="status">
+        <option value="Pending">Pending</option>
+        <option value="Paid">Paid</option>
+        <option value="Overdue">Overdue</option>
+      </select>
+      <button id="saveInvoice">Save Invoice</button>
+    </div>
+
+    <!-- Invoice Table -->
+    <div class="invoice-table">
+      <h2>Invoices</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Client</th>
+            <th>Date</th>
+            <th>Items</th>
+            <th>Amount</th>
+            <th>Status</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody id="invoiceList">
+          <!-- Invoices dynamically added here -->
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Dashboard -->
+    <div class="dashboard">
+      <h2>Dashboard</h2>
+      <canvas id="revenueChart" width="400" height="200"></canvas>
+      <p>Total Revenue: <span id="totalRevenue">R0</span></p>
+      <p>Overdue Invoices: <span id="overdueCount">R0</span></p>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,100 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f9f9f9;
+  margin: 0;
+  padding: 20px;
+  color: #333;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+.invoice-form, .invoice-table, .dashboard {
+  background: #fff;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.invoice-form input, .invoice-form select, .invoice-form button {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.invoice-form button {
+  background: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.invoice-form button:hover {
+  background: #45a049;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  text-align: left;
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+}
+
+tr:hover {background-color: #f1f1f1;}
+
+.status-Pending {
+  color: #ff9800;
+  font-weight: bold;
+}
+
+.status-Paid {
+  color: #4CAF50;
+  font-weight: bold;
+}
+
+.status-Overdue {
+  color: #f44336;
+  font-weight: bold;
+}
+
+button.action-btn {
+  padding: 5px 10px;
+  margin-right: 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button.edit-btn {
+  background: #2196F3;
+  color: #fff;
+}
+
+button.delete-btn {
+  background: #f44336;
+  color: #fff;
+}
+
+button.print-btn {
+  background: #607D8B;
+  color: #fff;
+}
+
+button.email-btn {
+  background: #9C27B0;
+  color: #fff;
+}
